@@ -20,16 +20,18 @@
     justify-content: space-between;
     width: 100%;
     height: 60%;
+    padding-bottom: 1%;
   }
   .bx {
-    background-color: #fff;
     width: 70%;
+    background-color: #fff;
     font-size: 3rem;
     border-radius: 100%;
     color: #306;
   }
   .icon {
     display: flex;
+    margin-top: 1%;
   }
   .h1 {
     color: #fff;
@@ -45,13 +47,23 @@
   #post {
     background-color: #fff;
     color: #000;
-    padding: 20px;
+    padding: 5px;
+  }
+  #face {
+   width: 10%;
+  }
+  .box {
+    margin-top: 1%;
+    margin-left: 80%;
   }
   .a a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     margin: 10px;
+  }
+  .a {
+    margin-top: 2%;
   }
   .navbar {
     background-color: #306;
@@ -157,6 +169,7 @@
   #f {
     margin-left: 15%;
     margin-bottom: 2%;
+    margin-top: 8%;
     color: #306;
     font-family: sans-serif;
     font-size: 1.2rem;
@@ -180,8 +193,8 @@
   }
   
   .BG {
-    padding-top: 9%;
-    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-bottom: 0%;
   }
   #img2 {
     width: 100%;
@@ -272,10 +285,16 @@
     padding: 2%;
   }
   .seac {
-    background-color: #e5e5e5;
-    padding: 2%;
+    background-color: grey;
+    color: #fff;
+    padding-bottom: 5%;
+    padding-top: 5%;
     width: 100%;
     margin-left: 100%;
+    border: none;
+  }
+  .seac a {
+    color: #fff;
   }
   a {
     text-decoration: none;
@@ -434,16 +453,55 @@
     font-size: 1rem;
   }
   .lass{
-    display: flex;
+    padding-bottom: 10%;
     background-color: #333;
-   
   }
   #lang {
-    width: 10px;
-    margin-left: 20%;
+    margin-bottom: 3%;
+    text-align: center;
+  }
+  .copy {
+    margin: 4% 2% 0% 10%;
+    color: #fff;
+  }
+  .copys {
+     margin: 0% 0% 0% 80%;
+     font-size: 20px;
+    color: #fff;
+  }
+  .langz {
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  .langz a {
+    text-transform: inherit;
+  }
+  .lan {
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+  .lan a {
+    text-transform: inherit;
+  }
+  .angz {
+    margin-left: 6%;
+    margin-top: 2%;
+  }
+  .angz a {
+    text-transform: inherit;
+  }
+  .flex {
+    display: flex;
   }
   #tea {
+    margin-top: 600px;
     color: #fff;
+    font-size: 0.9rem;
+  }
+  #teas {
+    color: #fff;
+    margin-top: 10%;
+    
   }
   .textbox {
     margin-top: 3%;
