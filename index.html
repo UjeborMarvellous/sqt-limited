@@ -10,39 +10,47 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
-     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="all">
-      <div class="navbar">
-        <div id="shift">
-          <div class="icon">
-            <i class="bx bxs-home"></i>
-            <h1 class="h1">Propertypro.ng</h1>
+      <div class="nav-container">
+        <nav class="navbar">
+          <h1 id="navbar-logo">PropertyPro</h1>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-          <div class="a">
-            <a href="#">For Sale</a>
-            <a href="#">For Rent</a>
-            <a href="#">Short Let</a>
-            <a href="#">Agents</a>
-            <a href="#">Blog</a>
-            <a href="#">Prestige</a>
-            <a href="#" id="post"
-              >Post A Property <span id="free">Free</span></a
-            >
-            <a href="#" id="post">Login</a>
-            <a href="#" id="post">Sign Up</a>
-          </div>
-        </div>
-      </div>
+          <ul class="nav-menu">
+            <li><a href="#" class="nav-links">For Sale</a></li>
+            <li><a href="#" class="nav-links">For Rent</a></li>
+            <li><a href="#" class="nav-links">Short Let</a></li>
+            <li><a href="#" class="nav-links">Agent</a></li>
+            <li><a href="#" class="nav-links">Blog</a></li>
+            <li><a href="#" class="nav-links">Prestige</a></li>
+            <li><a href="#" class="nav-links nav-links-btn">Post A property <span id="spans">Free</span></a></li>
+            <li><a href="#" class="nav-links nav-links-btn">Login</a></li>
+            <li><a href="#" class="nav-links nav-links-btn">Sign Up</a></li>
+          </ul>
+        </nav>
+       </div>
+       <div id="stage">
+         <img src="image/background1.jpg" id="img" alt="loading..." /> 
+       </div>
       <div>
-        <img src="image/background1.jpg" id="img" alt="loading..." />
         <div class="stage2">
           <div class="opacity">
             <h1 class="h2">Find Your Next Home</h1>
-            <br /><br />
-            <div>
+            <br>
+            <div class="sew">
               <a href="#" class="buys">Buy</a>
               <a href="#" class="buy">Rent</a>
               <a href="#" class="buy">Short Let</a>
@@ -83,9 +91,9 @@
             </div>
           </div>
           <div class="homeland">
-            <img src="image/1.jpg" alt="loading..." id="src" />
-            <img src="image/2.jpg" alt="loading..." id="src" />
-            <img src="image/3.jpg" alt="loading..." id="src" />
+            <img src="image/1.jpg" alt="loading..." id="src" class="w"/>
+            <img src="image/2.jpg" alt="loading..." id="src" class="w"/>
+            <img src="image/3.jpg" alt="loading..." id="src" class="w" />
           </div>
         </div>
         <div class="sp">
@@ -217,7 +225,7 @@
           </figure>
           <button class="seac"><a href="#">View more Service</a></button>
         </div>
-        <p id="f">Neighbourhood Guide</p>
+        <p id="f1">Neighbourhood Guide</p>
         <div class="stage7">
           <figure class="poa">
             <img src="image/lagos view.jpg" alt="loading..." id="view" />
@@ -244,7 +252,7 @@
         <div class="stage8">
           <figure id="fign">
             <figcaption id="down">
-              <p>
+              <p class="our">
                 Download Our Mobile <br />
                 Application For FREE!
               </p>
@@ -353,7 +361,11 @@
       <div class="ser" id="p">
         <div class="container">
           <h1 class="center-align">Search location of choice home</h1>
-          <input type="text" id="filterInput" placeholder="Search locations...">
+          <input
+            type="text"
+            id="filterInput"
+            placeholder="Search locations..."
+          />
           <ul id="names" class="collection with-header">
             <li class="collection-header">
               <h5>A</h5>
@@ -413,7 +425,7 @@
               <a href="#">Dawaki</a>
             </li>
             <li class="collection-item">
-              <a href="#">  Damakusa Gwari(1)</a>
+              <a href="#"> Damakusa Gwari(1)</a>
             </li>
             <li class="collection-item">
               <a href="#">Durumi(||)</a>
@@ -437,35 +449,36 @@
         <div class="lass">
           <div class="flex">
             <div class="langz">
-              <p><a href="#" id="teas">Popular State </a></p><br>
+              <p><a href="#" id="teas">Popular State </a></p>
               <p><a href="#" id="tea">Lagos </a></p>
               <p><a href="#" id="tea">Abuja </a></p>
               <p><a href="#" id="tea">Benin</a></p>
               <p><a href="#" id="tea">Delta </a></p>
             </div>
             <div class="lan">
-              <p><a href="#" id="teas">Popular Cities</a></p><br>
+              <p><a href="#" id="teas">Popular Cities</a></p>
               <p><a href="#" id="tea">Lagos </a></p>
               <p><a href="#" id="tea">Abuja </a></p>
               <p><a href="#" id="tea">Benin</a></p>
               <p><a href="#" id="tea">Delta </a></p>
             </div>
             <div class="angz">
-              <p><a href="#" id="teas">Popular Shortlet Cities</a></p><br>
+              <p><a href="#" id="teas">Popular Shortlet Cities</a></p>
               <p><a href="#" id="tea">Lagos </a></p>
               <p><a href="#" id="tea">Abuja </a></p>
               <p><a href="#" id="tea">Benin</a></p>
               <p><a href="#" id="tea">Delta </a></p>
             </div>
             <div class="angz">
-              <p><a href="#" id="teas">Popular Land For Sale</a></p><br>
-              <p><a href="#" id="tea">Lagos </a>
-              <p><a href="#" id="tea">Abuja </a>
-              <p><a href="#" id="tea">Benin</a>
-              <p><a href="#" id="tea">Delta </a>
+              <p><a href="#" id="teas">Popular Land For Sale</a></p>
+              <p><a href="#" id="tea">Lagos </a></p>
+              <p><a href="#" id="tea">Abuja </a></p>
+              <p><a href="#" id="tea">Benin</a></p>
+              <p><a href="#" id="tea">Delta </a></p>
             </div>
+
             <div class="angz">
-              <p><a href="#" id="teas">Propertypro Products</a></p><br>
+              <p><a href="#" id="teas">Propertypro Products</a></p>
               <p><a href="#" id="tea">Lagos </a></p>
               <p><a href="#" id="tea">Abuja </a></p>
               <p><a href="#" id="tea">Benin</a></p>
@@ -475,10 +488,18 @@
           <p class="copy">©Copyright 2020 PropertyPro.ng all rights reserved</p>
           <p class="copys">Social Media</p>
           <div class="box">
-            <a href="#"><img id="face" src="image/face.jpg" alt="loading..."></a>
-            <a href="#"><img id="face" src="image/twit.png" alt="loading..."></a>
-            <a href="#"><img id="face" src="image/int.jpg" alt="loading..."></a>
-            <a href="#"><img id="face" src="image/link.jpg" alt="loading..."></a>
+            <a href="#"
+              ><img id="face" src="image/face.jpg" alt="loading..."
+            /></a>
+            <a href="#"
+              ><img id="face" src="image/twit.png" alt="loading..."
+            /></a>
+            <a href="#"
+              ><img id="face" src="image/int.jpg" alt="loading..."
+            /></a>
+            <a href="#"
+              ><img id="face" src="image/link.jpg" alt="loading..."
+            /></a>
           </div>
         </div>
       </footer>
