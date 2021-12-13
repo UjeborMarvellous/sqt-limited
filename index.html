@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Property pro</title>
+    <title>Property</title>
     <link rel="stylesheet" href="index.css" />
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
@@ -23,13 +23,13 @@
     <div class="all">
       <div class="nav-container">
         <nav class="navbar">
-          <h1 id="navbar-logo">PropertyPro</h1>
-          <div class="menu-toggle" id="mobile-menu">
+          <h1 id="navbar-logo">Property</h1>
+          <div class="menu-toggle" id="mobile-menu" onclick="myFunction()">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
           </div>
-          <ul class="nav-menu">
+          <ul class="nav-menu" id="nav-menu">
             <li><a href="#" class="nav-links">For Sale</a></li>
             <li><a href="#" class="nav-links">For Rent</a></li>
             <li><a href="#" class="nav-links">Short Let</a></li>
@@ -42,60 +42,59 @@
           </ul>
         </nav>
        </div>
-       <div id="stage">
-         <img src="image/background1.jpg" id="img" alt="loading..." /> 
-       </div>
-      <div>
-        <div class="stage2">
-          <div class="opacity">
-            <h1 class="h2">Find Your Next Home</h1>
-            <br>
-            <div class="sew">
-              <a href="#" class="buys">Buy</a>
-              <a href="#" class="buy">Rent</a>
-              <a href="#" class="buy">Short Let</a>
-              <a href="#" class="buy">Land</a>
+       <div id="create">
+         <img src="image/background1.jpg" id="img" alt="loading..." />
+          <div class="stage2">
+            <div class="opacity">
+              <h1 class="h2">Find Your Next Home</h1>
+              <br>
+              <div class="sew">
+                <a href="#" class="buys">Buy</a>
+                <a href="#" class="buy">Rent</a>
+                <a href="#" class="buy">Short Let</a>
+                <a href="#" class="buy">Land</a>
+              </div>
+              <br />
+              <div class="search">
+                <input
+                  type="search"
+                  placeholder="Where do u want to live?"
+                  id="lives"
+                />
+                <select id="live">
+                  <option>type</option>
+                  <option>Shop</option>
+                  <option>Ofice space</option>
+                  <option>Land</option>
+                </select>
+                <select id="live">
+                  <option>Bed</option>
+                  <option>1 Bedroom</option>
+                  <option>2 Bedroom</option>
+                  <option>3 Bedroom</option>
+                </select>
+                <select id="live">
+                  <option>Min price</option>
+                  <option>50,000</option>
+                  <option>100,000</option>
+                  <option>200,000</option>
+                </select>
+                <select id="live">
+                  <option>Max price</option>
+                  <option>500,000</option>
+                  <option>600,000</option>
+                  <option>1,000,000</option>
+                </select>
+                <a href="#"><button class="sea">search</button></a>
+              </div>
             </div>
-            <br />
-            <div class="search">
-              <input
-                type="search"
-                placeholder="Where do u want to live?"
-                id="lives"
-              />
-              <select id="live">
-                <option>type</option>
-                <option>Shop</option>
-                <option>Ofice space</option>
-                <option>Land</option>
-              </select>
-              <select id="live">
-                <option>Bed</option>
-                <option>1 Bedroom</option>
-                <option>2 Bedroom</option>
-                <option>3 Bedroom</option>
-              </select>
-              <select id="live">
-                <option>Min price</option>
-                <option>50,000</option>
-                <option>100,000</option>
-                <option>200,000</option>
-              </select>
-              <select id="live">
-                <option>Max price</option>
-                <option>500,000</option>
-                <option>600,000</option>
-                <option>1,000,000</option>
-              </select>
-              <a href="#"><button class="sea">search</button></a>
+            <div class="homeland">
+              <img src="image/1.jpg" alt="loading..." id="src" class="w"/>
+              <img src="image/2.jpg" alt="loading..." id="src" class="w"/>
+              <img src="image/3.jpg" alt="loading..." id="src" class="w" />
             </div>
           </div>
-          <div class="homeland">
-            <img src="image/1.jpg" alt="loading..." id="src" class="w"/>
-            <img src="image/2.jpg" alt="loading..." id="src" class="w"/>
-            <img src="image/3.jpg" alt="loading..." id="src" class="w" />
-          </div>
-        </div>
+        </div>  
         <div class="sp">
           <div class="BG">
             <div class="textbox">

@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 08648ce91f5e5bd97bae1583055efa5cde7ff598 Ujebor Marvellous <ujebormarvellous@gmail.com> 1638434931 +0100	commit (initial): sqt folder
+08648ce91f5e5bd97bae1583055efa5cde7ff598 08648ce91f5e5bd97bae1583055efa5cde7ff598 Ujebor Marvellous <ujebormarvellous@gmail.com> 1638435604 +0100	checkout: moving from master to sqt-footer
+08648ce91f5e5bd97bae1583055efa5cde7ff598 08648ce91f5e5bd97bae1583055efa5cde7ff598 Ujebor Marvellous <ujebormarvellous@gmail.com> 1638466626 +0100	checkout: moving from sqt-footer to footer-branch
+08648ce91f5e5bd97bae1583055efa5cde7ff598 e3c70ca1b2ddb95937a2731bcb9e764f3243122b Ujebor Marvellous <ujebormarvellous@gmail.com> 1638466723 +0100	commit: folder sqt
+e3c70ca1b2ddb95937a2731bcb9e764f3243122b 08648ce91f5e5bd97bae1583055efa5cde7ff598 Ujebor Marvellous <ujebormarvellous@gmail.com> 1638467706 +0100	checkout: moving from footer-branch to master
+08648ce91f5e5bd97bae1583055efa5cde7ff598 e3c70ca1b2ddb95937a2731bcb9e764f3243122b Ujebor Marvellous <ujebormarvellous@gmail.com> 1638467777 +0100	checkout: moving from master to footer-branch
+e3c70ca1b2ddb95937a2731bcb9e764f3243122b 08648ce91f5e5bd97bae1583055efa5cde7ff598 Ujebor Marvellous <ujebormarvellous@gmail.com> 1638467953 +0100	checkout: moving from footer-branch to master
+08648ce91f5e5bd97bae1583055efa5cde7ff598 e3c70ca1b2ddb95937a2731bcb9e764f3243122b Ujebor Marvellous <ujebormarvellous@gmail.com> 1638468011 +0100	pull origin footer-branch: Fast-forward
+e3c70ca1b2ddb95937a2731bcb9e764f3243122b 07f1afc36ea2e77011d3deae7ab07f2eceb7743b Ujebor Marvellous <ujebormarvellous@gmail.com> 1639347000 +0100	commit: last
+07f1afc36ea2e77011d3deae7ab07f2eceb7743b 07f1afc36ea2e77011d3deae7ab07f2eceb7743b Ujebor Marvellous <ujebormarvellous@gmail.com> 1639347138 +0100	checkout: moving from master to property
